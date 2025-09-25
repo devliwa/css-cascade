@@ -1,0 +1,22 @@
+#main-container {
+  background-color: darkgreen;
+}
+
+.container {
+  background-color: navy;
+  padding: 12px;
+}
+
+.nested-container {
+  background-color: crimson;
+}
+
+p {
+  color: gold;
+  margin: 0;
+  padding: 0;
+}
+
+.highlight-white {
+  color: lightcyan;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Cascade Example</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      .highlight-text {
+        color: orange;
+      }
+
+      .highlight-white {
+        color: lightblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main-container" class="container">
+      <div class="container">
+        <p class="highlight-text">Sunshine</p>
+        <div class="container nested-container">
+          <p class="highlight-white">Clouds</p>
+        </div>
+      </div>
+      <div class="container">
+        <p class="highlight-text">Sunshine</p>
+        <div class="container nested-container">
+          <p class="highlight-white">Clouds</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
